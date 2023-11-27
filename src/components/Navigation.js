@@ -12,6 +12,7 @@ function Navigation() {
         <NavLink to="/">Trang chủ</NavLink>
         <NavLink to="/tracking">Tra cứu</NavLink>
         <NavLink to="/createPostalItems">Tạo đơn</NavLink>
+        <NavLink to="/postalManagementCompleted">Quản lý bưu gửi đã tạo</NavLink>
       </NavMenu>
     </Nav>
   );

@@ -5,6 +5,7 @@ import CreatePostalItems from "./components/CreatePostalItems";
 import Tracking from "./components/Tracking";
 import RootPage from "./pages/RootPage";
 import Login from "./components/Login";
+import PostalManagementCompleted from "./components/PostalManagementCompleted";
 function App() {
   return (
     <Routes>
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/tracking" element={<Tracking />} />
         <Route path="/createPostalItems" element={<CreatePostalItems />} />
+        <Route path="/postalManagementConpleted" element={<PostalManagementCompleted/>}/>
       </Route>
     </Routes>
   );
