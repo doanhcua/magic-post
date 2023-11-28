@@ -13,6 +13,7 @@ function Navigation() {
         <NavLink to="/tracking">Tra cứu</NavLink>
         <NavLink to="/createPostalItems">Tạo đơn</NavLink>
         <NavLink to="/postalManagementCompleted">Quản lý bưu gửi đã tạo</NavLink>
+        <NavLink to="/postalManagementConfirmed">Quản lý bưu gửi đã xác nhận</NavLink>
       </NavMenu>
     </Nav>
   );
